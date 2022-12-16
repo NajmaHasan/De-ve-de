@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  background-image: url(../img/moviesss.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+header{
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main{
+  text-align: center;
+  margin: 5rem;
+}
+section{
+  text-align: center;
+}
+input[type=text], select {
+  padding: 12px ;
+  margin: 8px ;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+button{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
+
+.hide{
+  display: none;
+}
+h2{
+  color: white;
+}
+
+footer{
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
